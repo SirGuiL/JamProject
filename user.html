@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Webjam - User </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./Style/UserStyle.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+</head>
+<body>
+<div class="container bootstrap snippets bootdey">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="grid profile">
+                <div class="grid-header">
+                    <div class="col-xs-2">
+                        <img src="./Imagens/Gui.png" class="img-circle" alt="logo">
+                    </div>
+                    <div class="col-xs-7">
+                        <h3>Guilherme Lima</h3>
+                        <p>@SirGuiL</p>
+                        <p>Brazil</p>
+                    </div>
+                </div>
+                <div class="grid-body">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
+                        <li class=""><a href="#photos" data-toggle="tab">Photos</a></li>
+                        <li class=""><a href="#settings" data-toggle="tab">Settings</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="profile">
+                            <p class="lead">My Profile</p>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p><strong>Description:</strong> Web Designer / Web Developer</p>
+                                    <p><strong>Joined on:</strong> July 28<sup>th</sup>, 2018</p>
+                                    <p><strong>Reputation:</strong> <span class="text-green" style="color: #02d802;"><i class="fa fa-angle-up"></i>1200</span></p>
+                                    <p><strong>Total Points:</strong> <span class="text-yellow">100</span></p>
+                                    <p style="font-size: 16px;"><strong><span><a href="index.html" style="text-decoration: none;"> <i class="fas fa-home"></i> Home </a> </span></strong></p>
+                                </div>
+                            </div>
+                    </div>
+                <div class="tab-pane" id="photos">
+                    <p class="lead">My Photos</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="popup-gallery">
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 1"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 2"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 3"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 4"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 5"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 6"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 7"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 8"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 1"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 1"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 3"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 4"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                                <a href="https://via.placeholder.com/128x100/" title="Photo 5"><img src="https://via.placeholder.com/128x100/" alt=""></a>                    <a href="https://via.placeholder.com/128x100/" title="Photo 1"><img src="https://via.placeholder.com/128x100/" alt=""></a>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane" id="settings">
+                    <p class="lead">My Settings</p>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="col-sm-2">Email Notifications</label>
+                                    <div class="col-sm-2">
+                                        <input type="checkbox">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="col-sm-2">Subscribe Newsletters</label>
+                                    <div class="col-sm-2">
+                                        <input type="checkbox">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-warning" style="margin-left: 10px;">Report Account</button>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-danger" style="margin-left: 10px;">Delete Account</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<form action="config.php?acao=img" method="POST">
+    <input type="file" name="file" id="file" style="display: none;">
+    <input type="submit" id="btnSubmit" style="display: none;">
+</form>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./Script/user.js"></script>
+</body>
+</html>

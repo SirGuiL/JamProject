@@ -1,0 +1,304 @@
+<html lang="pt-br">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Web Jam </title>
+        <link rel="stylesheet" href="./Style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+        <link rel="stylesheet" href="./bootstrap-4.4.1-dist/css/bootstrap.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </head>
+    <body id="corpo" style="background-color: black;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+          <font class="navbar-brand ml-2 mr-2 mt-2 mb-2" id="logo" style="font-size: 30px; color: #2cfb00; cursor: default;" href=""> Jam </font>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" style="font-size: 20px;" id="nav" href="#rank">Ranking</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="font-size: 20px;" id="nav2" href="#winners">Winners</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="font-size: 20px;" id="nav3" href="#competitions">Competitions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="font-size: 20px;" id="nav4" href="#Users">Users</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mt-1" style="font-size: 20px;" id="nav5" href="./user.html"><i class="fas fa-user"></i></a> <!-- data-target="#exampleModalCenter2" data-toggle="modal" -->
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mt-1" style="font-size: 20px;" id="nav6" href="#" data-target="#exampleModalCenter" data-toggle="modal"><i class="fas fa-cog"></i></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        <!-- Inicio do slider -->
+        <div style="background-color: black;  border-bottom: 15px rgb(78, 78, 78) solid; border-top: 15px rgb(78, 78, 78) solid;" class="jumbotron jumbotron-fluid">
+            <h1 style="color: white;" class="ml-1">Congratulation to the winner of the Web Jam Gold!</h1>
+            <p style="color: white;" class="lead ml-1">Guilherme Lima winning the Web Jam Gold with 100 points</p>
+            <p><a href="#winners" class="btn btn-dark btn-lg ml-1 mt-2">See the last winners</a></p>
+        </div>
+        <center>
+        <div class="competitions" id="competitions"><br><br>
+            <center>
+            <h2 class="title" id="Competitions"> Tournaments </h2> 
+            </center>
+            <div class="container">
+              <div class="box">
+                <div class="content">
+                  <h2> 01 </h2>
+                  <h3> Web Jam Gold </h3>
+                  <a href="registration.php?jam=gold">Register</a>
+                </div>
+              </div>
+              <div class="box">
+                <div class="content">
+                  <h2> 02 </h2>
+                  <h3> Web Jam Silver </h3>
+                  <a href="registration.php?jam=gold">Register</a>
+                </div>
+              </div>
+              <div class="box">
+                <div class="content">
+                  <h2> 03 </h2>
+                  <h3> Web Jam Bronze </h3>
+                  <a href="registration.php?jam=gold">Register</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        </center>
+
+            <!-- Inicio da div de listas -->
+        <div style="color: white;" class="lista" id="rank"><br>
+            <center>
+            <h2 style="color: grey;"> biggest scorers </h2>
+            </center>
+        <ul>
+            <li>
+                <span class="number">1</span>
+                <span class="name">Guilherme</span>
+                <span class="points">90</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+            <li>
+                <span class="number">2</span>
+                <span class="name">Gabriel</span>
+                <span class="points">75</span>
+                <span class="badge"><i class="fas fa-medal"></i></span>
+            </li>
+            <li>
+                <span class="number">3</span>
+                <span class="name">Lucas</span>
+                <span class="points">60</span>
+                <span class="badge"><i class="fas fa-medal"></i></span>
+            </li>
+            <li>
+                <span class="number">4</span>
+                <span class="name">Luan</span>
+                <span class="points">55</span>
+                <span class="badge"><i class="fas fa-shield-alt"></i></span>
+            </li>
+            <li>
+                <span class="number">5</span>
+                <span class="name">Josias</span>
+                <span class="points">50</span>
+                <span class="badge"><i class="fas fa-shield-alt"></i></span>
+            </li>
+        </ul><br><br>
+        </div><br><br>
+        <div style="color: white;" class="lista" id="winners"><br>
+            <center>
+            <h2 style="color: grey;"> Last Winners </h2>
+            </center>
+        <ul>
+            <li>
+                <span class="number">1</span>
+                <span class="name">Guilherme</span>
+                <span class="points">05/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+            <li>
+                <span class="number">2</span>
+                <span class="name">Gabriel</span>
+                <span class="points">04/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+            <li>
+                <span class="number">3</span>
+                <span class="name">Lucas</span>
+                <span class="points">03/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+            <li>
+                <span class="number">4</span>
+                <span class="name">Luan</span>
+                <span class="points">02/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+            <li>
+                <span class="number">5</span>
+                <span class="name">Josias</span>
+                <span class="points">01/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+        </ul><br><br>
+        </div><br><br>
+        <div style="color: white;" class="lista" id="Users"><br>
+            <center>
+            <h2 style="color: grey;"> Last Registers </h2>
+            </center>
+        <ul>
+            <li>
+                <span class="number">1</span>
+                <span class="name">Guilherme</span>
+                <span class="points">05/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+            <li>
+                <span class="number">2</span>
+                <span class="name">Gabriel</span>
+                <span class="points">04/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+            <li>
+                <span class="number">3</span>
+                <span class="name">Lucas</span>
+                <span class="points">03/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+            <li>
+                <span class="number">4</span>
+                <span class="name">Luan</span>
+                <span class="points">02/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+            <li>
+                <span class="number">5</span>
+                <span class="name">Josias</span>
+                <span class="points">01/06/2020</span>
+                <span class="badge"><i class="fas fa-trophy"></i></span>
+            </li>
+        </ul><br><br>
+        </div>
+        <div id="rodape" style="color: rgb(165, 165, 165);">
+            <center>
+                © Web Jam | 2020
+            </center>
+        </div>
+        <!-- Button trigger modal -->
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Configurations</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                    <div class="modal-body">
+                            <label for="title"><i class="fas fa-moon"></i> Theme</label>
+                            <form>
+                            <div class="form-check">
+                            <input class="form-check-input" id="dark" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                            <label class="form-check-label" for="exampleRadios1">
+                              Dark Mode
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" id="light" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                            <label class="form-check-label" for="exampleRadios2">
+                              Light Mode
+                            </label>
+                            </form>
+                          </div>
+                          <hr>
+                          <label for="title"><i class="fas fa-map-marker-alt"></i> Country </label>
+                          <form>
+                            <select name="country" id="country">
+                              <option value="Brazil" id="Brazil"> Brazil </option>
+                              <option value="United States" id="United States"> United States </option>
+                            </select><br><br>
+                            <button class="btn btn-primary" type="submit">Confirm</button>
+                          </form>
+                          <hr>
+                          <label for="title"><i class="fas fa-mobile-alt"></i> Number</label>
+                          <form action="index.php">
+                            <input style="width: 50px;" type="text" name="ddd" id="ddd" maxlength="2">
+                            <input type="text" name="phone" id="phone" onkeypress="mascara(this, '#####-####')"  maxlength="10"><br><br>
+                            <button class="btn btn-primary" type="submit"> Confirm </button>
+                          </form><hr>
+                          <a href="" data-target="#bug" data-toggle="modal"><i class="fas fa-bug"></i> Report Bug </a>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                    </div>
+            </div>
+            </div>
+
+            <div class="modal fade" id="bug" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">Configurations</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+                  </div>
+                      <div class="modal-body">
+                              <label for="title"><i class="fas fa-bug"></i> Report Bug</label>
+                              <form action="index.php" method="POST">
+                                <textarea name="" id="" cols="30" rows="10"></textarea><br><br>
+                                <button type="submit" class="btn btn-primary"> Send </button>
+                              </form>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                      </div>
+              </div>
+              </div>
+
+              <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenter2" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Configurations</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                        <div class="modal-body">
+                          <form action="login.php" method="POST">
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <a href="register.html" class="btn btn-secondary">Register</a>
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                </div>
+                </div>
+                
+                <script src="./Script/script.js"></script>
+    </body>
+</html>
